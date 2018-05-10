@@ -14,6 +14,8 @@ import java.io.IOException;
 
 public class pessoasTeste extends PApplet {
 
+//Fabricio Junior - 09/05/2018
+
 PImage img1, img2;
 Entidade man;
 ArrayList<Entidade> pessoas = new ArrayList<Entidade>();
@@ -63,7 +65,7 @@ class Entidade{
 
   //Construtor
   Entidade(int x, int y){
-    this.max = 4;
+    this.max = 2;
     this.x = x;
     this.y = y;
     this.velocidadeX = round(random(-this.max, this.max));
